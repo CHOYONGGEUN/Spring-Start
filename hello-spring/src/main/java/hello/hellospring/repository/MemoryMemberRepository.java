@@ -25,7 +25,7 @@ public class MemoryMemberRepository implements MemberRepository {
 
     @Override
     public Optional<Member> findByName(String name) {
-        return store.values().stream() //store 값들에 대한 스틂 생성
+        return store.values().stream() //store 값들에 대한 스트림 생성
                 .filter(member -> member.getName().equals(name))
                 .findAny();
     }

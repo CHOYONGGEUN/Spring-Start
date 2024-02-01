@@ -1,7 +1,7 @@
 package hello.hellospring.service;
 
-import spring.springstart.domain.Member;
-import spring.springstart.repository.MemberRepository;
+import hello.hellospring.domain.Member;
+import hello.hellospring.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;
